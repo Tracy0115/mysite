@@ -25,6 +25,6 @@ def hours_ahead(request,offset):
 
 def Current_DateTime(request):
 	now = datetime.datetime.now()
-	t = get_template(current.html)
+	t = get_template('current.html')
 	html = t.render(Context({'current_date':now}))
 	return HttpResponse(html)

@@ -25,7 +25,7 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 TEMPLATE_DIRS = (
-	'D:\django\mysite\templatedir',
+	'D:/django/mysite/templatedir',
 	)
 
 ALLOWED_HOSTS = []
